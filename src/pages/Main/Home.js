@@ -3,8 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import ProductCard from "../../components/ProductCard";
 import { toggle, toggleBrands } from "../../features/filter/filterSlice";
 import { getProducts } from "../../features/products/productsSlice";
-// import { toggle, toggleBrands } from "../features/filter/filterSlice";
-// import { getProducts } from "../features/products/productsSlice";
+
 
 const Home = () => {
 

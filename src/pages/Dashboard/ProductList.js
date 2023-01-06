@@ -20,7 +20,7 @@ const ProductList = () => {
   useEffect(() => {
     if (!isLoading && deleteSuccess) {
       toast.success("Successfully removed", { id: "removeProduct" })
-      toggleDeleteSuccess();
+      dispatch(toggleDeleteSuccess());
     }
   }, [isLoading, deleteSuccess])
 
